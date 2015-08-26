@@ -1,0 +1,103 @@
+@charset "utf-8";
+
+body {
+    margin: 0;
+    /*font-size: 62.5%;*/
+    font-family: "微软雅黑", "黑体", "楷体", "宋体", "仿宋", "华文细黑", "华文黑体", "华文楷体", "华文宋体", "华文仿宋", "华文中宋", "隶书", "幼圆";
+}
+
+img {
+    vertical-align: middle;
+    border: 0;
+}
+
+.height_50 {
+    width: 100px;
+    height: 50px;
+}
+
+.height_40 {
+    width: 100px;
+    height: 40px;
+}
+
+.cleaner {
+    clear: both;
+}
+
+.width_80p {
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+
+.width_90p {
+    margin: 0 auto;
+    width: 90%;
+    height: auto;
+}
+
+.width_60p {
+    margin: 0 auto;
+    width: 60%;
+    height: auto;
+}
+
+.width_100p {
+    margin: 0 auto;
+    height: auto;
+    text-align: center;
+}
+
+.align_left {
+    float: left;
+}
+
+.align_right {
+    float: right;
+}
+
+.section_1 {
+    margin: auto 0;
+    width: 100%;
+    height: auto;
+    position: relative;
+    max-width: 100%;
+}
+
+.font_14 {
+    font-size: 1.4rem;
+    color: #707070;
+    line-height: 1.5em;
+    vertical-align: middle;
+}
+
+.font_16 {
+    font-size: 1.6rem;
+    color: #313131;
+    line-height: 1.5em;
+    vertical-align: middle;
+}
+
+.color_green {
+    color: #1fa24d;
+}
+
+.slide {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100px;
+    background-position: center center;
+    background-size: cover;
+}
+
+#section_1_btm_line {
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #1FA24D;
+}
+
